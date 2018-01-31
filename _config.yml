@@ -11,11 +11,11 @@ minimal_mistakes_skin    : "air" # "air", "aqua", "contrast", "dark", "dirt", "n
 locale                   : "th"
 title                    : "รวมความรู้ LibGDX"
 title_separator          : "-"
-name                     : "s-kyousuke"
+name                     : "skyousuke"
 description              : "รวมความรู้เกี่ยวกับ LibGDX ในฉบับภาษาไทย"
-url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url                      : "https://skyousuke.github.io/libgdx-tutorial"
 baseurl                  : # the subpath of your site, e.g. "/blog"
-repository               : "s-kyousuke/jekyll-demo"
+repository               : # "s-kyousuke/jekyll-demo"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
@@ -83,7 +83,7 @@ analytics:
 
 # Site Author
 author:
-  name             : "s-kyousuke"
+  name             : "skyousuke"
   avatar           : "/assets/images/avatar.png"
   bio              : "เป็นคนธรรมดาทั่วไป แต่ชื่นชอบการเขียนโปรแกรมเป็นพิเศษ ^o^"
   location         : "Bangkok, Thailand"
@@ -95,7 +95,7 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : "S-Kyousuke"
+  github           : "skyousuke"
   gitlab           :
   google_plus      :
   keybase          :
