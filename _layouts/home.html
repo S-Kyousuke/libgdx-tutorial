@@ -12,7 +12,13 @@ layout: default
   
   {% for category in group_names %}
     {% assign posts = group_items[forloop.index0] %}
-      <h2>{{ category }}</h2>
+      <h2>
+	    {% for category_data in site.data.categories %}
+		  {% if category == category_data.slug %}
+		    {{ category_data.name }}
+		  {% endif %}
+		{% endfor %}
+	  </h2>
       <div class="post-grid">
       {% for post in posts %}
 		<div class="post-grid-item">

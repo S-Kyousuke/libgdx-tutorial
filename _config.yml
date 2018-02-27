@@ -15,10 +15,11 @@
 # in the templates via {{ site.myvariable }}.
 title: รวมความรู้ LibGDX
 author: skyousuke
-description: รวมความรู้ต่างๆเกี่ยวกับ LibGDX ในฉบับภาษาไทย
+description: รวมความรู้ต่างๆเกี่ยวกับ LibGDX
 url: "https://skyousuke.github.io/libgdx-tutorial/"
 lang: th_TH
 github_username: skyousuke
+permalink: pretty
   
 # Build settings
 markdown: kramdown
