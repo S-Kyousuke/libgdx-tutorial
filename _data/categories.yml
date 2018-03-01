@@ -1,4 +1,4 @@
-- name: Entity Systems
-  slug: entity-systems
+- name: Entity System
+  slug: entity-system
 - name: Shader
   slug: shader
