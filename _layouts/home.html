@@ -24,13 +24,15 @@ layout: default
 		<div class="post-grid-item">
 		  <article itemscope itemtype="http://schema.org/CreativeWork">   
 		    <div class="post-teaser">
-				<a href="{{ post.url | relative_url }}"><img class="post-image" src="{{ post.image | escape }}" alt></a>
+			  <a href="{{ post.url | relative_url }}"><img class="post-image" src="{{ post.image | escape }}" alt></a>
 			</div>
-            <h3>
+			<div class="post-text">
+              <h3>
 				<a href="{{ post.url | relative_url }}">
                 <span>{{ post.title | escape }}</span>
 				</a>
-			</h3>
+			  </h3>
+			</div>
           </article>		  
 		</div>
       {% endfor %}
